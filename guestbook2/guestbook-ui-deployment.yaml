@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui2
     spec:
       containers:
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+      - image: docker.io/tsuyito/test-nginx:0.0.1
         name: guestbook-ui2
         ports:
         - containerPort: 80
